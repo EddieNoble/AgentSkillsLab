@@ -1,0 +1,18 @@
+## .NET build output
+**/bin/
+**/obj/
+
+## Local calendar input can contain confidential meeting details
+/AgentSkillsLab.Console/Data/*.ics
+
+## Visual Studio
+.vs/
+*.user
+*.suo
+
+## Visual Studio Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
