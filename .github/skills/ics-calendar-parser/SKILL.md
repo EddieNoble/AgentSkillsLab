@@ -14,8 +14,8 @@ used in the MAB codebase.
 
 ## Workflow
 
-1. Read the console project and this skill's supporting resources before proposing
-   changes.
+1. Read the console project and this skill's relevant supporting resources before
+   proposing changes.
 2. Confirm the requested behavior and user-configurable options before choosing a
    parser library, data model, or interpretation of ICS edge cases.
 3. Use `AgentSkillsLab.Console/Data` as the default location for input data. If the
@@ -60,3 +60,8 @@ RFC 5545-compliant. The longer-term direction is to support multiple format snif
 options such as event counts by month or invitees by date. Preserve that
 composability, but do not build a generic plugin system, UI, or analytics framework
 until a concrete next requirement calls for it.
+
+## Supporting references
+
+- For the first-pass FA Cup fixture listing assumptions and continuation handoff,
+  read [fa-cup-fixture-listing.md](references/fa-cup-fixture-listing.md).
